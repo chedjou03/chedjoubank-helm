@@ -1,0 +1,6 @@
+dependencies:
+- name: chedjoubank-common
+  repository: file://../../chedjoubank-common
+  version: 0.1.0
+digest: sha256:cc1aa1ff99db0f06f208fb064d6fb62d25dee5d8dbab5858aeea12dee6f313e4
+generated: "2023-01-28T15:29:48.356577-06:00"

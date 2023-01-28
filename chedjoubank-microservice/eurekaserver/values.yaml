@@ -1,0 +1,23 @@
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+deploymentName: eurekaserver-deployment
+deploymentLabel: eurekaserver
+
+replicaCount: 1
+
+image:
+  repository: chedjou03/eurekaserver
+  tag: latest
+
+containerPort: 8060
+
+service:
+  type: LoadBalancer
+  port: 8060
+  targetPort: 8060
+
+config_enabled: true
+zipkin_enabled: true
+profile_enabled: true
+eureka_enabled: false #we dont want configserver to register with eureka

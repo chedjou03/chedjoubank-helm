@@ -1,4 +1,4 @@
-{{- define "common.deployment" -}} # common.deployment will be the name of this configuration
+{{- define "common.deployment" -}}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
