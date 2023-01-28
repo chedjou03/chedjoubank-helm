@@ -1,0 +1,1 @@
+{{- template "common.service" . -}} # importing the service template from the chedjoubank-common chart . notice the dot after the 
