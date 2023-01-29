@@ -1,0 +1,15 @@
+{{- define "common.service" -}} #common.service will be the name of this configuration
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Values.deploymentLabel }} # use the deploymentLabel in the values yaml file
+spec:
+  selector:
+    app: {{ .Values.deploymentLabel }}
+  type: {{ .Values.service.type }}
+  ports:
+    - name: http
+      protocol: TCP
+      port: {{ .Values.service.port }}
+      targetPort: {{ .Values.service.targetPort }}
+{{- end -}}
