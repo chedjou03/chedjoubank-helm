@@ -4,7 +4,7 @@
 deploymentName: cards-deployment
 deploymentLabel: cards
 
-replicaCount: 1
+replicaCount: 2
 
 image:
   repository: chedjou03/cards

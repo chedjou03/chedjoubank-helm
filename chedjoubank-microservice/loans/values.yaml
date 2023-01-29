@@ -4,7 +4,7 @@
 deploymentName: loans-deployment
 deploymentLabel: loans
 
-replicaCount: 1
+replicaCount: 2
 
 image:
   repository: chedjou03/loans

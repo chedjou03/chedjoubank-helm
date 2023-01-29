@@ -4,7 +4,7 @@
 deploymentName: accounts-deployment
 deploymentLabel: accounts
 
-replicaCount: 1
+replicaCount: 2
 
 image:
   repository: chedjou03/accounts
