@@ -1,0 +1,27 @@
+dependencies:
+- name: chedjoubank-common
+  repository: file://../../chedjoubank-common
+  version: 0.1.0
+- name: zipkin
+  repository: file://../../chedjoubank-microservice/zipkin
+  version: 0.1.0
+- name: loans
+  repository: file://../../chedjoubank-microservice/loans
+  version: 0.1.0
+- name: gatewayserver
+  repository: file://../../chedjoubank-microservice/gatewayserver
+  version: 0.1.0
+- name: eurekaserver
+  repository: file://../../chedjoubank-microservice/eurekaserver
+  version: 0.1.0
+- name: configserver
+  repository: file://../../chedjoubank-microservice/configserver
+  version: 0.1.0
+- name: cards
+  repository: file://../../chedjoubank-microservice/cards
+  version: 0.1.0
+- name: accounts
+  repository: file://../../chedjoubank-microservice/accounts
+  version: 0.1.0
+digest: sha256:f064237856a74ecaef810de5ab6b2e7ed007864839ef3f8d9dfa1add39c4bbe7
+generated: "2023-01-28T16:00:43.448863-06:00"
